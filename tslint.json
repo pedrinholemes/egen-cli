@@ -1,0 +1,12 @@
+{
+  "extends": ["tslint-config-standard", "tslint-config-prettier"],
+  "rules": {
+    "strict-type-predicates": false
+  },
+  "env": {
+    "jest": true
+  },
+  "linterOptions": {
+    "exclude": ["src/components", "src/pages", "src/controllers"]
+  }
+}
